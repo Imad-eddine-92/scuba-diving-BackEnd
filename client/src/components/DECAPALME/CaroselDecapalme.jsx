@@ -12,8 +12,8 @@ function CaroselDecapalme() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>Rencontre avec la vie marine</h5>
-          <p>Un face-à-face inoubliable avec un poisson curieux. Chaque plongée réserve des surprises inattendues.</p>
+          <h5 style={{ color: 'white' }}>Rencontre avec la vie marine</h5>
+          <p style={{ color: 'white' }}>Un face-à-face inoubliable avec un poisson curieux. Chaque plongée réserve des surprises inattendues.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
