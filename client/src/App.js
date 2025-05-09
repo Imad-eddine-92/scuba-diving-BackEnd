@@ -14,7 +14,7 @@ import AdminRoute from './routes/AdminRoute';
 import ErrorToast from './components/ErrorToast';
 import LoadSpin from './components/LoadSpin';
 import ProdDetails from './pages/ProdDetails';
-import Decapalme from './pages/Decapalme';
+import Clubs from './pages/Clubs';
 // import Book from './pages/Book';
 
 
@@ -43,7 +43,7 @@ function App() {
       <Routes>
         <Route path = "/" element = {<Home />} />
         <Route path = "/products/:id" element = {<ProdDetails />} />
-        <Route path = "/Decapalme" element = {<Decapalme />} />
+        <Route path = "/Clubs" element = {<Clubs />} />
         
         {isAuth ? ( 
         <Route path = "/profile" element = {<Profile />} />
@@ -62,7 +62,6 @@ function App() {
 
         <Route path = "/*" element = {<Error />} />
       </Routes>
-      
     </div>
   );
 }

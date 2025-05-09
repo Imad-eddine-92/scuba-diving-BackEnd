@@ -24,7 +24,7 @@ const NavBar = () => {
 
           <Nav style={{ marginLeft: 'auto' }}>
             <Nav.Link style={{ color: 'white' }} href="/">Home</Nav.Link>
-            <Nav.Link href="/Decapalme">Clubs</Nav.Link>
+            <Nav.Link href="/Clubs">Clubs</Nav.Link>
             {isAuth ? (
               <>
                 <Nav.Link href="/profile">Profile</Nav.Link>
