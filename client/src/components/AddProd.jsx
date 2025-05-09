@@ -43,6 +43,9 @@ function AddProd() {
         <Modal.Body>
         <Form>
       <Form.Group className="mb-3">
+      <Form.Control type="text" placeholder="Enter Club's name" name = "club" value = {newProd.club} onChange = {handleChange} />
+      </Form.Group>
+      <Form.Group className="mb-3">
         <Form.Control type="text" placeholder="Enter title" name = "title" value = {newProd.title} onChange = {handleChange} />
       </Form.Group>
       <Form.Group className="mb-3">

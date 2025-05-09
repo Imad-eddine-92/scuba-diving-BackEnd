@@ -29,6 +29,9 @@ const Product = ({ product, all }) => {
           }} 
         />
         <Card.Body>
+          <Card.Text style={{ fontSize: '1.2rem', fontWeight: 'bold', color: '#333', marginBottom: '20px' }}>
+            {product.club}
+          </Card.Text>
           <Card.Title style={{ fontSize: '1.2rem', fontWeight: 'bold', color: '#333', marginBottom: '20px' }}>
             {product.title}
           </Card.Title>

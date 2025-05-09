@@ -1,6 +1,10 @@
 const mongoose = require ('mongoose')
 
 const productSchema = new mongoose.Schema({
+    club: {
+        type: String,
+        
+    },
     title: {
         type: String,
         required: true,

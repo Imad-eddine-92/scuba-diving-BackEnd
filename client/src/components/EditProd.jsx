@@ -42,6 +42,9 @@ function EditProd({ product }) {
         <Modal.Body>
         <Form>
       <Form.Group className="mb-3">
+        <Form.Control type="text" placeholder="Enter Club's name" name = "club" value = {editedProd.club} onChange = {handleChange} />
+      </Form.Group>
+      <Form.Group className="mb-3">
         <Form.Control type="text" placeholder="Enter title" name = "title" value = {editedProd.title} onChange = {handleChange} />
       </Form.Group>
       <Form.Group className="mb-3">
