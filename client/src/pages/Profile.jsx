@@ -19,7 +19,7 @@ const Profile = () => {
     dispatch(getMyProds());
     dispatch(getMyBooks());
   }, [dispatch]);
-
+// console.log('myBooks dans Profile:', myBooks);
   return (
     <div style={{ backgroundColor: '#fff', minHeight: '100vh', padding: '40px' }}>
       {isLoad && <LoadSpin />}

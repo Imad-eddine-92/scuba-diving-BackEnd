@@ -32,6 +32,7 @@ export const getMyBooks = () => async (dispatch) => {
   dispatch({ type: LOAD_BOOK });
   try {
     const result = await axios.get('/api/bookings/mybooks', setAuthHeaders());
+     console.log('Réponse API getMyBooks:', result.data.myBooks);
     dispatch({ type: GET_MY_BOOKS, payload: result.data.myBooks });
   } catch (error) {
     dispatch({ type: FAIL_BOOK, payload: error.response?.data || error.message });
@@ -42,7 +43,8 @@ export const getMyBooks = () => async (dispatch) => {
 export const addBook = (newBook) => async (dispatch) => {
   dispatch({ type: LOAD_BOOK });
   try {
-    const result = await axios.post('/api/bookings/addBook', newBook, setAuthHeaders());
+    const result = await axios.post('/api/bookings', newBook, setAuthHeaders());
+
     dispatch({ type: ADD_BOOK, payload: result.data });
   } catch (error) {
     dispatch({ type: FAIL_BOOK, payload: error.response?.data || error.message });

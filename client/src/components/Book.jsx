@@ -14,7 +14,8 @@ function Book({ product, onClose, show }) {
     age: '',
     email: '',
     phone: '',
-    productId: product._id,
+    product: product._id,
+
   });
 
   const handleChange = (e) => {
