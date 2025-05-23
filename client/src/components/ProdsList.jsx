@@ -1,7 +1,7 @@
-import React from 'react'
-import Product from './Product'
+import React from 'react';
+import Product from './Product';
 
-const ProdsList = ({ products, all }) => {
+const ProdsList = ({ products = [], all }) => {  // fallback [] ajouté
   return (
     <div 
       style={{
@@ -14,9 +14,11 @@ const ProdsList = ({ products, all }) => {
         padding: "0 15px"
       }}
     >
-      {products.map((prod) => <Product key={prod._id} product={prod} all={all} />)}
+      {products.map((prod) => (
+        <Product key={prod._id} product={prod} all={all} />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default ProdsList
+export default ProdsList;

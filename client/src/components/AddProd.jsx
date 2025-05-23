@@ -15,6 +15,7 @@ function AddProd() {
   const dispatch = useDispatch()
 
   const [newProd, setNewProd] = useState({
+    club:'',
     title: '',
     description: '',
     price: 0,
@@ -38,7 +39,7 @@ function AddProd() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Add your product</Modal.Title>
+          <Modal.Title>Add your Program</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <Form>

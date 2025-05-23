@@ -7,6 +7,7 @@ function CaroselDecapalme() {
     <Carousel data-bs-theme="dark">  
       <Carousel.Item>
         <img
+          
           className="d-block w-100"
           src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/f7/76/6c/decapalm.jpg?w=1100&h=-1&s=1"
           alt="First slide"
@@ -18,6 +19,7 @@ function CaroselDecapalme() {
       </Carousel.Item>
       <Carousel.Item>
         <img
+          
           className="d-block w-100"
           src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/0d/03/92/decapalm.jpg?w=1100&h=-1&s=1"
           alt="Second slide"
@@ -29,6 +31,7 @@ function CaroselDecapalme() {
       </Carousel.Item>
       <Carousel.Item>
         <img
+          
           className="d-block w-100"
           src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9a/be/70/20190220-112518-largejpg.jpg?w=1000&h=-1&s=1"
           alt="Second slide"
@@ -40,6 +43,7 @@ function CaroselDecapalme() {
       </Carousel.Item>
       <Carousel.Item>
         <img
+          
           className="d-block w-100"
           src="https://scontent.fqfd1-1.fna.fbcdn.net/v/t1.6435-9/119427537_1568841059964926_1753322556838919563_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeED-C9Jq1oWW2ZnllXlU41FffAhW3_kP3598CFbf-Q_foHVipd8-Jm3ZM4pT975uM59jq-T4TsaBlL8d7N3vw9o&_nc_ohc=nOeNgKHp7egQ7kNvwG6Rf8Z&_nc_oc=AdlXnVWHSTS_GRvR_Cdg4HTZiOZzBAfbcAMdtDqtnG-Yq8oAEPsCscBk-81OCL9WYgI&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fqfd1-1.fna&_nc_gid=tLF3tIzFfRMrQoSebUbbgQ&oh=00_AfKl6yQtgDq_upYJHKh5QNjUhPZFYmvpi7uT8kAHuYZyzQ&oe=6844955D"
           alt="Third slide"

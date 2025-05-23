@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.9.0",
     "bootstrap": "^5.3.5",
+    "cors": "^2.8.5",
     "leaflet": "^1.9.4",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
@@ -21,6 +22,7 @@
     "react-toastify": "^11.0.5",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
+    "spdy": "^4.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

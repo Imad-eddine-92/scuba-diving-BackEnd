@@ -1,5 +1,6 @@
 const express = require ('express')
 
+
 require('dotenv').config()
 
 const connectDB = require('./config/connectDB')
@@ -21,6 +22,7 @@ app.use('/api/user', require('./routes/user.route'))
 
 app.use('/api/product', require('./routes/product.route'))
 
+app.use('/api/bookings', require('./routes/book.route'))
 
 
 // Port
