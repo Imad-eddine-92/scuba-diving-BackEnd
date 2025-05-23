@@ -23,9 +23,7 @@ app.use('/api/auth', require('./routes/auth.route'))
 app.use('/api/user', require('./routes/user.route'))
 app.use('/api/product', require('./routes/product.route'))
 app.use('/api/bookings', require('./routes/book.route'))
-app.use((req,res)=> {
-    res.send("API is running...")
-})
+
 // Port
 const PORT = process.env.PORT || 1302
 
